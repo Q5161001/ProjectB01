@@ -45,7 +45,6 @@ public class Calculation extends HttpServlet {
             request.setAttribute("operator", operator);
         } catch (NumberFormatException e) {
         }
-            System.out.println("Aエラー");
         RequestDispatcher dispatch = request.getRequestDispatcher("calculation.jsp");
         dispatch.forward(request, response);
     }
