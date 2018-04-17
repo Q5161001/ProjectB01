@@ -35,7 +35,6 @@ public class Calculation extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
-        HttpSession session = request.getSession();
         try {
             int num1 = Integer.parseInt(request.getParameter("num1"));
             int num2 = Integer.parseInt(request.getParameter("num2"));
