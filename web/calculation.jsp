@@ -30,7 +30,7 @@
         %>
     </head>
    <body>
-        <div>Hello！！</div>
+        <div>数値を入力と演算子を選択</div>
         <table>
         <form method="post" action="Calculation">
             <input type="text" name="num1" value="0" size="5"/>
