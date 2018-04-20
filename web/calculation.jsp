@@ -30,7 +30,7 @@
         %>
     </head>
    <body>
-        <div>数値を入力2</div>
+        <div>数値を</div>
         <table>
         <form method="post" action="Calculation">
             <input type="text" name="num1" value="0" size="5"/>
